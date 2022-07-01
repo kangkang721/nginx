@@ -1,3 +1,1 @@
-FROM nginx:alpine
-COPY site /usr/share/nginx/html
-COPY nginx.conf /etc/nginx/conf.d/nginx.conf
+FROM swr.cn-north-1.myhuaweicloud.com/iivey/firefox:v1.1
