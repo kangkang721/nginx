@@ -1,1 +1,3 @@
-FROM swr.cn-north-1.myhuaweicloud.com/iivey/firefox:v1.1
+FROM jlesage/firefox:v1.18.0
+
+ENV PORT=8080
