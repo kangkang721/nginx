@@ -1,0 +1,13 @@
+
+version: '3'
+services:
+  chrome:
+    container_name: chrome
+    image: jlesage/firefox
+    environment: 
+      ENABLE_CJK_FONT: 1
+    ports:
+      - "5800:5800"
+      - "5900:5900"
+
+      # docker pull luxianglin/chrome-vnc
